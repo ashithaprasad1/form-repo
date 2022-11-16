@@ -1,0 +1,32 @@
+table,th,td
+{
+border:2px solid black;
+border-collapse: collapse;
+}
+
+tr:nth-child(odd)
+{
+background-color:yellow;
+}
+tr:nth-child(even)
+{
+background-color:pink;
+}
+th
+{
+background-color:green;
+color:white;
+}
+marquee
+{
+font-size:100px;
+color:red;
+}
+th:hover
+{
+background-color: #00134d;
+}
+body
+{
+background-color:yellow;
+}
